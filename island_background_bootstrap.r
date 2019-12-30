@@ -30,7 +30,7 @@ HMGA2.df <- data.frame(type=as.character("HMGA2"), rate = as.numeric(mean(HMGA2$
 alldata <- rbind(alldata, HMGA2.df)
 
 rm(results, ci, test, mydata)
-file_path="/Project/b2012111_DarwinsFinch/SpeciationIslands/20160923_recalculation/Correlation_dxy_rr_fst_island/"
+file_path="Correlation_dxy_rr_fst_island/"
 files <- list.files(path=file_path, pattern="\\.island")
 
 
